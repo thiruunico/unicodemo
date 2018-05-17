@@ -1,0 +1,541 @@
+{
+  "name" : "exportTest51644",
+  "sourceOrgId" : "8w4beu1ZuirczLpeaPfN6m",
+  "sourceOrgName" : "Informatica",
+  "exportedObjects" : [ {
+    "objectGuid" : "aDSJm8xzYRsesqYmNmBZ2N",
+    "objectName" : "afr_1070_PhotoURL_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L00000000000I"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule validates the fomat and domain of a URL are valid.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "4opAGq8imWRfRji6SBw3Wb",
+    "objectName" : "DQ_Mapplets",
+    "objectType" : "Folder",
+    "path" : "/Explore/Radar",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "IDQ DQ mapplets used in Radar mappings",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "4BlaL97tS2OltCgqcqhDy1",
+    "objectName" : "afr_Multi_Ind_Pass_Fillter",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L00000000000F"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "4KvTndaSmmLlPsXHAZykan",
+    "objectName" : "m_Salesforce_Lead_Fix",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Radar/Salesforce_Mappings",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L1700000000000K"
+      },
+      "objectRefs" : [ "aDSJm8xzYRsesqYmNmBZ2N", "4BlaL97tS2OltCgqcqhDy1", "01Awpbn8w3qj8LFOF9Ne8G", "lU9JAa6xhO7bwYQCkU0Ais", "6eaJ8lqVtyRhflVWQ4FV0r", "7oMoTyGc0kablc0qtaaTez", "8TSU7uDxzoneOd3nG9cuyo", "aT4no4G1rRylUJXmfqLt6T", "4HqhNc86QqjbQzy16LKDgi", "2WKWfBccogXbWFz9Sg04Wk", "3kXHCNkXusIfhz2K3TqbAK", "9EF0PZ3RfNdh8njvDj9SUS", "6Y9fG8ayxXFdyZECnOTCSX", "14G6wMxYCMCfnVe51q5Zup", "5LvXpOoPQuxgOELnLK1Yca", "7TL9IsvWUqecYVi4DAqgsQ", "5MT5mR6VzKRiu8ySTh8v2v", "5X04Bjn9hXAiwAa1F9vyO9" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "01Awpbn8w3qj8LFOF9Ne8G",
+    "objectName" : "afr_Filter_Data_By_Country",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L000000000008"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Filters input data based on country name",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "lU9JAa6xhO7bwYQCkU0Ais",
+    "objectName" : "afr_1020_Name_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L00000000000A"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule validates that the value in Name field valid by\r\n- Checking if the Name parses in FML format to be equal to the FirstName, MiddleName and LastName values\r\n- Checking if the name components are transposed\r\n- Checking for null",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "6HvmaEP6zQnlLiNhpP2Imf",
+    "objectName" : "Radar",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "All assets, mappings, mapplets, etc for Radar ",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "6eaJ8lqVtyRhflVWQ4FV0r",
+    "objectName" : "afr_1110_Address_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L00000000000H"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Checks if the address components are correct, if they can be fixed or are invalid.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "7oMoTyGc0kablc0qtaaTez",
+    "objectName" : "afr_1130_Salutation_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L000000000007"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule checks if the Salutation (Prename) exists, if it is standardized and \r\nif it matches the gender of the name.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "8TSU7uDxzoneOd3nG9cuyo",
+    "objectName" : "afr_1140_GeoCoordinate_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L000000000004"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "The rule checks if the inputs are number or null, and in the range of -90 to 90 for latitude\r\nand -180 to 180 for longitude.  No other values are valid.  \r\nReturns rule_id, issue_id  along with pass, fail and fixed flags.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "aT4no4G1rRylUJXmfqLt6T",
+    "objectName" : "afr_1100_NumberOfEmployees_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L000000000005"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Validates the values must be a number between 1 and 4 million or null.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "4HqhNc86QqjbQzy16LKDgi",
+    "objectName" : "afr_Lead_Union",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L00000000000D"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "2WKWfBccogXbWFz9Sg04Wk",
+    "objectName" : "afr_Get_FieldID",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L00000000000B"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapplet returns the FieldID for the input FieldName and the current date for tTmeID",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "3kXHCNkXusIfhz2K3TqbAK",
+    "objectName" : "afr_1012_EmailBouncedDate_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L000000000009"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Valid values for this field are null or a date with the date format of MM/DD/YYYY HH:MI:SS. \r\nIf it is a date, the date value must be less than or equal to the current date.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "9EF0PZ3RfNdh8njvDj9SUS",
+    "objectName" : "afr_1040_CompanyName_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L00000000000C"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule attempts to validate the Company name.  \r\nReturns\r\nValid - Company name was foound in our reference data\r\nProbable - Company was not found exactly but there are common business name indicator words found\r\nSuspect - Company name and business indicator words not found\r\nNull input - Company name was null, it is a required field.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "14G6wMxYCMCfnVe51q5Zup",
+    "objectName" : "afr_1000_Annual_Revenue_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L000000000003"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "The rule checks if the input is a positive number or null, no other values are valid.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "6Y9fG8ayxXFdyZECnOTCSX",
+    "objectName" : "afr_1090_Phone_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L00000000000E"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule checks the Country and Area or Regional codes and overall format of the Phone number.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "hViZoZaWMQReSomNd2FXqW",
+    "objectName" : "Salesforce_Mappings",
+    "objectType" : "Folder",
+    "path" : "/Explore/Radar",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "5LvXpOoPQuxgOELnLK1Yca",
+    "objectName" : "afr_1030_ConvertedDate_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L000000000006"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Valid values for this field are null or a date with the date format of MM/DD/YYYY HH:MI:SS. \r\nIf it is a date, the date value must be less than or equal to the current date.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "7TL9IsvWUqecYVi4DAqgsQ",
+    "objectName" : "afr_1010_Email_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L00000000000G"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet validates the email format.  It does not check if the email is an activated address.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "5MT5mR6VzKRiu8ySTh8v2v",
+    "objectName" : "afr_1080_Website_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L00000000000J"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule validates the fomat and domain of a website URL are valid.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "5X04Bjn9hXAiwAa1F9vyO9",
+    "objectName" : "afr_1028_Title_Validation",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/Radar/DQ_Mapplets",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01003L0L000000000002"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Rule checks if the value is currently in the Title reference table.\r\nThe reference data is not all inclusive, additions for specific occupations may need to be added.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  } ]
+}

@@ -1,0 +1,137 @@
+{
+  "name" : "IICSCAI",
+  "sourceOrgId" : "8w4beu1ZuirczLpeaPfN6m",
+  "sourceOrgName" : "Informatica",
+  "exportedObjects" : [ {
+    "objectGuid" : "6TT95OQ1cRhjvJC2ifcvcx",
+    "objectName" : "Edmunds-actions",
+    "objectType" : "AI_CONNECTION",
+    "path" : "/Explore/Default/Tutorial 1",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "xRabbfTQbdxWq9b-gt-548-2018-04-11T21:05:12.383Z::conn.xml"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Uses the Edmunds service Connector to get vehicle makes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "1jRFUnjQosOiZkzGpt8gOm",
+    "objectName" : "Default",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "IS_DEF_LOC",
+        "value" : "true"
+      } ],
+      "additionalInfo" : {
+        "description" : "Auto-generated Default Project",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "6SkhhmCe6p2drTjQ2dUyQZ",
+    "objectName" : "Edmunds",
+    "objectType" : "AI_SERVICE_CONNECTOR",
+    "path" : "/Explore/Default/Tutorial 1",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "uKymbduaa-gt-540-2018-04-11T21:05:12.325Z::svc.xml"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Invoke actions from the Edmunds Vehicle API service",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "08W1R8ovOrcdJCugnz3H0z",
+    "objectName" : "Process Car Makes By Year",
+    "objectType" : "PROCESS",
+    "path" : "/Explore/Default/Tutorial 1",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8SOlA1vyoY2G7Qn-gt-16-2018-04-11T21:05:12.952Z::pd.xml"
+      },
+      "objectRefs" : [ "7eonXIC5nwTggym7DZuYQ5" ],
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Process to count the number of vehicle makes for a given year, and call a subprocess for each make.",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "7eonXIC5nwTggym7DZuYQ5",
+    "objectName" : "Process Make",
+    "objectType" : "PROCESS",
+    "path" : "/Explore/Default/Tutorial 1",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "Chs9pNz6HKoJBUh-gt-558-2018-04-11T21:05:12.459Z::pd.xml"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Process to count the number of models for a make.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "4KLR3PLGKSacaBGKsIXjGc",
+    "objectName" : "Tutorial 1",
+    "objectType" : "Folder",
+    "path" : "/Explore/Default",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains Assets created in Tutorial 1",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  } ]
+}

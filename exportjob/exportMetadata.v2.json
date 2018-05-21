@@ -1,160 +1,10 @@
 {
   "name" : "exportjob",
-  "sourceOrgId" : "g0sNepHD7itlXsjI5ptTCw",
-  "sourceOrgName" : "INFACLOUD1",
+  "sourceOrgId" : "8w4beu1ZuirczLpeaPfN6m",
+  "sourceOrgName" : "Informatica",
   "exportedObjects" : [ {
-    "objectGuid" : "9an6bfumNYNdXYFrBAjvAp",
-    "objectName" : "m_mplt_filter",
-    "objectType" : "DTEMPLATE",
-    "path" : "/Explore/VVN",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01001R170000000000SL"
-      },
-      "objectRefs" : [ "2Nz8PUZaiAGkyzv7xR47oK", "gH8cC4GqzAUh7nrAqFz8mA", "6yxk1eRWoTMbfXm52zzREW" ],
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      },
-      "objectExistence" : "WITH_DEPENDENCIES"
-    }
-  }, {
-    "objectGuid" : "2Nz8PUZaiAGkyzv7xR47oK",
-    "objectName" : "SK_Con_FF_Auto",
-    "objectType" : "Connection",
-    "path" : "/SYS",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01001R0B00000000000I"
-      },
-      "objectRefs" : [ "dJvRtkuueSvhMVRN5LD0gW" ],
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : "Flat File connection for CMD testcases Automation",
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      },
-      "objectExistence" : "WITH_DEPENDENCIES"
-    }
-  }, {
-    "objectGuid" : "gH8cC4GqzAUh7nrAqFz8mA",
-    "objectName" : "SK_Con_MySQL_Auto",
-    "objectType" : "Connection",
-    "path" : "/SYS",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01001R0B00000000000L"
-      },
-      "objectRefs" : [ "buzIP0bNMqEffcbdPzm5oh" ],
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : "MySQL ODQAUTF8 connection for CMD testcases automation",
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      },
-      "objectExistence" : "WITH_DEPENDENCIES"
-    }
-  }, {
-    "objectGuid" : "buzIP0bNMqEffcbdPzm5oh",
-    "objectName" : "RU35002.informatica.com",
-    "objectType" : "AgentGroup",
-    "path" : "/SYS",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01001R25000000000003"
-      },
-      "objectRefs" : [ ],
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      },
-      "objectExistence" : "WITH_DEPENDENCIES"
-    }
-  }, {
-    "objectGuid" : "6yxk1eRWoTMbfXm52zzREW",
-    "objectName" : "mplt_filter",
-    "objectType" : "MAPPLET",
-    "path" : "/Explore/VVN",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01001R0L00000000002S"
-      },
-      "objectRefs" : [ ],
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      },
-      "objectExistence" : "WITH_DEPENDENCIES"
-    }
-  }, {
-    "objectGuid" : "dJvRtkuueSvhMVRN5LD0gW",
-    "objectName" : "TMS44W1264001",
-    "objectType" : "AgentGroup",
-    "path" : "/SYS",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01001R2500000000000B"
-      },
-      "objectRefs" : [ ],
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      },
-      "objectExistence" : "WITH_DEPENDENCIES"
-    }
-  }, {
-    "objectGuid" : "fPE5sFsPy40kLUVJeoWFk9",
-    "objectName" : "VVN",
+    "objectGuid" : "1jRFUnjQosOiZkzGpt8gOm",
+    "objectName" : "Default",
     "objectType" : "Project",
     "path" : "/Explore",
     "metadata" : {
@@ -164,9 +14,54 @@
       },
       "repoInfo" : null,
       "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "IS_DEF_LOC",
+        "value" : "true"
+      } ],
+      "additionalInfo" : {
+        "description" : "Auto-generated Default Project",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "7eonXIC5nwTggym7DZuYQ5",
+    "objectName" : "Process Make",
+    "objectType" : "PROCESS",
+    "path" : "/Explore/Default/Tutorial 1",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "Chs9pNz6HKoJBUh-gt-558-2018-04-11T21:05:12.459Z::pd.xml"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Process to count the number of models for a make.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "4KLR3PLGKSacaBGKsIXjGc",
+    "objectName" : "Tutorial 1",
+    "objectType" : "Folder",
+    "path" : "/Explore/Default",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "Contains Assets created in Tutorial 1",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       },

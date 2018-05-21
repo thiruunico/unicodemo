@@ -1,8 +1,4 @@
 objectPath,objectName,objectType,id
-/Explore/VVN,m_mplt_filter,DTEMPLATE,9an6bfumNYNdXYFrBAjvAp
-/SYS,SK_Con_FF_Auto,Connection,2Nz8PUZaiAGkyzv7xR47oK
-/SYS,SK_Con_MySQL_Auto,Connection,gH8cC4GqzAUh7nrAqFz8mA
-/SYS,RU35002.informatica.com,AgentGroup,buzIP0bNMqEffcbdPzm5oh
-/Explore/VVN,mplt_filter,MAPPLET,6yxk1eRWoTMbfXm52zzREW
-/SYS,TMS44W1264001,AgentGroup,dJvRtkuueSvhMVRN5LD0gW
-/Explore,VVN,Project,fPE5sFsPy40kLUVJeoWFk9
+/Explore,Default,Project,1jRFUnjQosOiZkzGpt8gOm
+/Explore/Default/Tutorial 1,Process Make,PROCESS,7eonXIC5nwTggym7DZuYQ5
+/Explore/Default,Tutorial 1,Folder,4KLR3PLGKSacaBGKsIXjGc

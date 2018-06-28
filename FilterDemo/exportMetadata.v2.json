@@ -1,0 +1,226 @@
+{
+  "name" : "FilterDemo",
+  "sourceOrgId" : "g0sNepHD7itlXsjI5ptTCw",
+  "sourceOrgName" : "INFACLOUD1",
+  "exportedObjects" : [ {
+    "objectGuid" : "8c9Mq5EvU6fhmGictdw3gk",
+    "objectName" : "Agent_Win64",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01001R25000000000006"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "9an6bfumNYNdXYFrBAjvAp",
+    "objectName" : "m_mplt_filter",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/VVN",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01001R170000000000SL"
+      },
+      "objectRefs" : [ "2Nz8PUZaiAGkyzv7xR47oK", "gH8cC4GqzAUh7nrAqFz8mA", "6yxk1eRWoTMbfXm52zzREW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "2Nz8PUZaiAGkyzv7xR47oK",
+    "objectName" : "SK_Con_FF_Auto",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01001R0B00000000000I"
+      },
+      "objectRefs" : [ "dJvRtkuueSvhMVRN5LD0gW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Flat File connection for CMD testcases Automation",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "gH8cC4GqzAUh7nrAqFz8mA",
+    "objectName" : "SK_Con_MySQL_Auto",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01001R0B00000000000L"
+      },
+      "objectRefs" : [ "buzIP0bNMqEffcbdPzm5oh" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "MySQL ODQAUTF8 connection for CMD testcases automation",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "8VwYwnJcGXKdxlMFRBn8U8",
+    "objectName" : "m_mplt_filter",
+    "objectType" : "MTT",
+    "path" : "/Explore/VVN",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01001R0Z0000000000QC"
+      },
+      "objectRefs" : [ "8c9Mq5EvU6fhmGictdw3gk", "9an6bfumNYNdXYFrBAjvAp", "2Nz8PUZaiAGkyzv7xR47oK", "gH8cC4GqzAUh7nrAqFz8mA", "6yxk1eRWoTMbfXm52zzREW" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "buzIP0bNMqEffcbdPzm5oh",
+    "objectName" : "RU35002.informatica.com",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01001R25000000000003"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "6yxk1eRWoTMbfXm52zzREW",
+    "objectName" : "mplt_filter",
+    "objectType" : "MAPPLET",
+    "path" : "/Explore/VVN",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01001R0L00000000002S"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "dJvRtkuueSvhMVRN5LD0gW",
+    "objectName" : "TMS44W1264001",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01001R2500000000000B"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "fPE5sFsPy40kLUVJeoWFk9",
+    "objectName" : "VVN",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  } ]
+}

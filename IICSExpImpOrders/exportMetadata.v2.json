@@ -1,0 +1,318 @@
+{
+  "name" : "IICSExpImpOrders",
+  "sourceOrgId" : "4nC7iwVXPdFepXIwCfx48O",
+  "sourceOrgName" : "Informatica Corporation",
+  "exportedObjects" : [ {
+    "objectGuid" : "iYoPAawmT0UePw7Cp2Cbic",
+    "objectName" : "USW1R90GHK7Y",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001U3R25000000000003"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "lzTYVa9ePI0bEqNyzNHyKe",
+    "objectName" : "Taskflow2",
+    "objectType" : "TASKFLOW",
+    "path" : "/Explore/Orders",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "sK4PvbcjIw8jIw8-gt-8990-2018-09-10T21:16:10.293Z::tf.xml"
+      },
+      "objectRefs" : [ "7V1CGqnMUe2i6uazyVVkma", "6T61zfcPwkcek1P9N6ZIux", "3s39jcLyYEDj9ibXm2z26l", "1UMp3GcJKYYfzKUtIroEcv" ],
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "alALUTtezHUjrIzths21u8",
+    "objectName" : "Demo",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "1UMp3GcJKYYfzKUtIroEcv",
+    "objectName" : "Opp_to_Netsuite",
+    "objectType" : "DSS",
+    "path" : "/Explore/Demo",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001U3R0I000000000007"
+      },
+      "objectRefs" : [ "89ZmTe15MCUfL2Nykis1qk", "cbtaF6gtE0UkiqE6FIz7Ig" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "6xJItWQSzMKewFytv3sqA8",
+    "objectName" : "Redshift_connection",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001U3R0B000000000006"
+      },
+      "objectRefs" : [ "iYoPAawmT0UePw7Cp2Cbic" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "cbtaF6gtE0UkiqE6FIz7Ig",
+    "objectName" : "flatfile",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001U3R0B000000000004"
+      },
+      "objectRefs" : [ "iYoPAawmT0UePw7Cp2Cbic" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "0BajHNcwTmHjPMCch9Dwqi",
+    "objectName" : "Orders",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "7V1CGqnMUe2i6uazyVVkma",
+    "objectName" : "MappingTask2",
+    "objectType" : "MTT",
+    "path" : "/Explore/Orders",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001U3R0Z000000000002"
+      },
+      "objectRefs" : [ "iYoPAawmT0UePw7Cp2Cbic", "hAXr7c2NKgRkyGjm4WKcOB", "6xJItWQSzMKewFytv3sqA8", "cbtaF6gtE0UkiqE6FIz7Ig" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "89ZmTe15MCUfL2Nykis1qk",
+    "objectName" : "Netsutie_Demo",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001U3R0B000000000005"
+      },
+      "objectRefs" : [ "iYoPAawmT0UePw7Cp2Cbic" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "hAXr7c2NKgRkyGjm4WKcOB",
+    "objectName" : "Mapping1",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Orders",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001U3R17000000000004"
+      },
+      "objectRefs" : [ "6xJItWQSzMKewFytv3sqA8", "cbtaF6gtE0UkiqE6FIz7Ig" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "6T61zfcPwkcek1P9N6ZIux",
+    "objectName" : "Order_processing_demo",
+    "objectType" : "MTT",
+    "path" : "/Explore/Demo",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001U3R0Z000000000003"
+      },
+      "objectRefs" : [ "iYoPAawmT0UePw7Cp2Cbic", "6xJItWQSzMKewFytv3sqA8", "jkCbn0Z3iwIbLssWOydwom", "cbtaF6gtE0UkiqE6FIz7Ig" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "3s39jcLyYEDj9ibXm2z26l",
+    "objectName" : "MappingTask1",
+    "objectType" : "MTT",
+    "path" : "/Explore/Orders",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001U3R0Z000000000004"
+      },
+      "objectRefs" : [ "iYoPAawmT0UePw7Cp2Cbic", "hAXr7c2NKgRkyGjm4WKcOB", "6xJItWQSzMKewFytv3sqA8", "cbtaF6gtE0UkiqE6FIz7Ig" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "jkCbn0Z3iwIbLssWOydwom",
+    "objectName" : "orders_fulfillment_demo",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Demo",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "001U3R17000000000003"
+      },
+      "objectRefs" : [ "6xJItWQSzMKewFytv3sqA8" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  } ]
+}

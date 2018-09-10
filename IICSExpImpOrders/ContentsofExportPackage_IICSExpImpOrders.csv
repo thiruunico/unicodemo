@@ -1,0 +1,14 @@
+objectPath,objectName,objectType,id
+/SYS,USW1R90GHK7Y,AgentGroup,iYoPAawmT0UePw7Cp2Cbic
+/Explore/Orders,Taskflow2,TASKFLOW,lzTYVa9ePI0bEqNyzNHyKe
+/Explore,Demo,Project,alALUTtezHUjrIzths21u8
+/Explore/Demo,Opp_to_Netsuite,DSS,1UMp3GcJKYYfzKUtIroEcv
+/SYS,Redshift_connection,Connection,6xJItWQSzMKewFytv3sqA8
+/SYS,flatfile,Connection,cbtaF6gtE0UkiqE6FIz7Ig
+/Explore,Orders,Project,0BajHNcwTmHjPMCch9Dwqi
+/Explore/Orders,MappingTask2,MTT,7V1CGqnMUe2i6uazyVVkma
+/SYS,Netsutie_Demo,Connection,89ZmTe15MCUfL2Nykis1qk
+/Explore/Orders,Mapping1,DTEMPLATE,hAXr7c2NKgRkyGjm4WKcOB
+/Explore/Demo,Order_processing_demo,MTT,6T61zfcPwkcek1P9N6ZIux
+/Explore/Orders,MappingTask1,MTT,3s39jcLyYEDj9ibXm2z26l
+/Explore/Demo,orders_fulfillment_demo,DTEMPLATE,jkCbn0Z3iwIbLssWOydwom

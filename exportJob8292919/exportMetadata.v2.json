@@ -1,0 +1,164 @@
+{
+  "name" : "exportJob8292919",
+  "sourceOrgId" : "8MBvuy2BGMxkStzNBoWsiE",
+  "sourceOrgName" : "Unico Solution",
+  "exportedObjects" : [ {
+    "objectGuid" : "6pNgdYhH9klh9rLgQzDZs9",
+    "objectName" : "Raghavendra_CSV_Conn",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ0B0000000000N2"
+      },
+      "objectRefs" : [ "k2gaWYGKogceLIESa6LoG7" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "a2cKqvYviZGbQqLNMRH5KY",
+    "objectName" : "Mapping1",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/MEM_SQL_TEST/Raghu",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ170000000000O8"
+      },
+      "objectRefs" : [ "6pNgdYhH9klh9rLgQzDZs9", "0dki5Z1XH2EckbyaDiUaYb" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "13etXEWHD0nkPZvfcVx0ap",
+    "objectName" : "Raghu",
+    "objectType" : "Folder",
+    "path" : "/Explore/MEM_SQL_TEST",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "ehodLWplpwYgM6OOw1FxCb",
+    "objectName" : "Mapping4",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/MEM_SQL_TEST/Raghu",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ170000000000T5"
+      },
+      "objectRefs" : [ "6pNgdYhH9klh9rLgQzDZs9" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "INVALID"
+      }
+    }
+  }, {
+    "objectGuid" : "k2gaWYGKogceLIESa6LoG7",
+    "objectName" : "Raghavendra_Agent",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ2500000000002T"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "0dki5Z1XH2EckbyaDiUaYb",
+    "objectName" : "RAGHU_MEM_SQL_CON_UNICO",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ0B0000000000NR"
+      },
+      "objectRefs" : [ "k2gaWYGKogceLIESa6LoG7" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "testing",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "jEfpbhGaRMzcEiT8FSoyIK",
+    "objectName" : "MEM_SQL_TEST",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This project is for MEM_SQL connector test",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  } ]
+}

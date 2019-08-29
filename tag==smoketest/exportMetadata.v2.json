@@ -1,0 +1,191 @@
+{
+  "name" : "tag==smoketest",
+  "sourceOrgId" : "8MBvuy2BGMxkStzNBoWsiE",
+  "sourceOrgName" : "Unico Solution",
+  "exportedObjects" : [ {
+    "objectGuid" : "76c0BFsrQB7cW2X4vZvPoD",
+    "objectName" : "Default",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "IS_DEF_LOC",
+        "value" : "true"
+      } ],
+      "additionalInfo" : {
+        "description" : "Auto-generated Default Project",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "2IJUYdMw57LbM1vy1KTnS0",
+    "objectName" : "tvmff",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ0B0000000000NA"
+      },
+      "objectRefs" : [ "kbFgCjCFziKkGu3yZUS9qc" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "kbFgCjCFziKkGu3yZUS9qc",
+    "objectName" : "ubu18vm",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ2500000000002V"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "4EPUMvMNL7udL4Dk14PFcc",
+    "objectName" : "tvmMemSQLV2",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ0B0000000000NV"
+      },
+      "objectRefs" : [ "kbFgCjCFziKkGu3yZUS9qc" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "eBv2iu2O8Isiui5xTqjdC9",
+    "objectName" : "tvmysql2ff",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default/T",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ170000000000NV"
+      },
+      "objectRefs" : [ "2IJUYdMw57LbM1vy1KTnS0", "3v8BL9ah5YIdzHUZNaK16h" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "0H0ZA7Bmizabj5ErPEAAgm",
+    "objectName" : "MemSQLV2_smoke_test",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default/T",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ170000000000OH"
+      },
+      "objectRefs" : [ "2IJUYdMw57LbM1vy1KTnS0", "4EPUMvMNL7udL4Dk14PFcc" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "3v8BL9ah5YIdzHUZNaK16h",
+    "objectName" : "tvmysql",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0018IZ0B0000000000N9"
+      },
+      "objectRefs" : [ "kbFgCjCFziKkGu3yZUS9qc" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "8j8g68nQk8UfymsFD4CCgF",
+    "objectName" : "T",
+    "objectType" : "Folder",
+    "path" : "/Explore/Default",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  } ]
+}

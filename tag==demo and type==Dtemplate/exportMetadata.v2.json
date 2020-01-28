@@ -3,6 +3,30 @@
   "sourceOrgId" : "1pCq1nTJMi9eMNpjqNtdUr",
   "sourceOrgName" : "unico",
   "exportedObjects" : [ {
+    "objectGuid" : "5RfvtJLsvJ9irfH8uXizYi",
+    "objectName" : "flatfilecentos",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000D0B00000000000A"
+      },
+      "objectRefs" : [ "79oPr7zubg5iChiEMvowQc" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
     "objectGuid" : "4Cea5mX1s8Tc7Aj9BU4rU6",
     "objectName" : "sample",
     "objectType" : "Project",
@@ -19,6 +43,30 @@
         "description" : "",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "7BlKrDSOR0weAEgWhdYGgd",
+    "objectName" : "FFMap",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/sample",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000D1700000000000B"
+      },
+      "objectRefs" : [ "5RfvtJLsvJ9irfH8uXizYi" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     }
   }, {
@@ -81,6 +129,30 @@
       },
       "repoInfo" : {
         "repoHandle" : "01000D25000000000003"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "79oPr7zubg5iChiEMvowQc",
+    "objectName" : "centos.localdomain",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000D25000000000004"
       },
       "objectRefs" : [ ],
       "contextAttributes" : [ {

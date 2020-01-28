@@ -1,5 +1,8 @@
 objectPath,objectName,objectType,id
+/SYS,flatfilecentos,Connection,5RfvtJLsvJ9irfH8uXizYi
 /Explore,sample,Project,4Cea5mX1s8Tc7Aj9BU4rU6
+/Explore/sample,FFMap,DTEMPLATE,7BlKrDSOR0weAEgWhdYGgd
 /SYS,dell7FF,Connection,2Yjw0mOqh7ek5TnQqSux8T
 /Explore/sample,FF2FF stest,DTEMPLATE,fXrHc4htr4bklJEGdIB2eC
 /SYS,DESKTOP-VE8JQLE,AgentGroup,1hqcSZA5j5BdcTzebJrM4o
+/SYS,centos.localdomain,AgentGroup,79oPr7zubg5iChiEMvowQc
